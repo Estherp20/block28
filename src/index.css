@@ -17,8 +17,28 @@ body > div {
 #navbar {
   padding: 2em;
   justify-content: space-evenly;
-  background-color: black;
+  background-color: white;
 }
+footer > div {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2em;
+}
+footer a:hover{
+  color: black;
+  box-shadow: 0 4px 8px black;
+}
+footer a{
+  padding: 1rem;
+  background:grey; 
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  text-decoration: none; 
+}
+
+
 #main-section {
   flex-grow: 1;
 }
@@ -39,4 +59,13 @@ body > div {
 .home{
   background-color: bisque;
   color:black;
+}
+.pink{
+  background-color: pink;
+  color: white;
+}
+
+.green{
+  background-color: #63bdaa;
+  color: white;
 }
